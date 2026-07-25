@@ -1,6 +1,6 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
 <h3>Name: Nivash P</h3>
-<h3>Register Number/Staff Id: 212225230203</h3>
+<h3>Register Number: 212225230203</h3>
 
 
 <h3>AIM:</h3>
@@ -36,22 +36,28 @@ The PEAS model is widely used in designing intelligent systems such as robots, s
 </table>
 <hr>
 <H3>DESIGN STEPS</H3>
-STEP 1: Identifying the Input:                                                                                  
+STEP 1: Identifying the Input: 
+
 Email content, sender information, subject, attachments, and keywords.                                                                                                                       
                                                                                                                   
-STEP 2: Identifying the Output:                                                               
+STEP 2: Identifying the Output:  
+
 Classify the email as Spam or Not Spam (Ham).                                                   
                                                                                                               
-STEP 3: Developing the PEAS Description:                                                                
+STEP 3: Developing the PEAS Description:  
+
 PEAS description is developed based on the Performance Measure, Environment, Actuators, and Sensors of the AI agent.                                       
                                                                                                                       
-STEP 4: Implementing the AI Agent:                                                                                                         
+STEP 4: Implementing the AI Agent:                                                               
+
+
 Analyze the incoming email using a Machine Learning model, detect spam patterns, and automatically move spam emails to the Spam folder while allowing genuine emails into the Inbox.                                       
 
-STEP 5: Measuring the Performance Parameters:                                                                                     
+STEP 5: Measuring the Performance Parameters:    
+
 For every correctly classified email, the performance is incremented. For every wrongly classified email (false positive or false negative), the performance is decremented. The system performance is evaluated using Accuracy, Precision, Recall, and F1-Score.                                             
 
-##Python Implementation
+Python Implementation
 ```
 import random
 emails = {
