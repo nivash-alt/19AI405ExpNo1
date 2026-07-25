@@ -1,6 +1,6 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
-<h3>Name: Saravanan N</h3>
-<h3>Register Number/Staff Id: TSML006</h3>
+<h3>Name: Nivash P</h3>
+<h3>Register Number/Staff Id: 2122225230203</h3>
 
 
 <h3>AIM:</h3>
@@ -9,7 +9,13 @@
 <br>
 <h3>Theory</h3>
 <h3>Medicine prescribing agent:</h3>
-<p>Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.</p>
+<p>PEAS is a framework used in Artificial Intelligence to describe the components of an intelligent agent. It helps define how an AI system interacts with its environment to achieve its goals.
+PEAS stands for:
+P – Performance Measure: Defines how the success of the AI agent is evaluated. 
+E – Environment: The surroundings in which the AI agent operates. 
+A – Actuators: The devices or mechanisms used by the agent to perform actions. 
+S – Sensors: The devices used to collect information from the environment. 
+The PEAS model is widely used in designing intelligent systems such as robots, self-driving cars, virtual assistants, medical diagnosis systems, and game-playing agents.</p>
 <hr>
 <h3>PEAS DESCRIPTION:</h3>
 <table>
