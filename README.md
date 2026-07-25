@@ -36,13 +36,18 @@ The PEAS model is widely used in designing intelligent systems such as robots, s
 </table>
 <hr>
 <H3>DESIGN STEPS</H3>
-<h3>STEP 1:Identifying the input:</h3>
-<p>Temperature from patients, Location.</p>
-<h3>STEP 2:Identifying the output:</h3>
-<p>Prescribe medicine if the patient in a random has a fever.</p>
-<h3>STEP 3:Developing the PEAS description:</h3>
-<p>PEAS description is developed by the performance, environment, actuators, and sensors in an agent.</p>
-<h3>STEP 4:Implementing the AI agent:</h3>
-<p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
-<h3>STEP 5:</h3>
+STEP 1: Identifying the Input:                                                                                 
+Email content, sender information, subject, attachments, and keywords.                                        
+                                                                                                                  
+STEP 2: Identifying the Output:                                                               
+Classify the email as Spam or Not Spam (Ham).                                                   
+                                                                                                              
+STEP 3: Developing the PEAS Description:                                                                
+PEAS description is developed based on the Performance Measure, Environment, Actuators, and Sensors of the AI agent.                                       
+                                                                                                                      
+STEP 4: Implementing the AI Agent:                                                                                                         
+Analyze the incoming email using a Machine Learning model, detect spam patterns, and automatically move spam emails to the Spam folder while allowing genuine emails into the Inbox.                                       
+
+STEP 5: Measuring the Performance Parameters:                                                                                     
+For every correctly classified email, the performance is incremented. For every wrongly classified email (false positive or false negative), the performance is decremented. The system performance is evaluated using Accuracy, Precision, Recall, and F1-Score.                                             
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
