@@ -50,9 +50,9 @@ Analyze the incoming email using a Machine Learning model, detect spam patterns,
 
 STEP 5: Measuring the Performance Parameters:                                                                                     
 For every correctly classified email, the performance is incremented. For every wrongly classified email (false positive or false negative), the performance is decremented. The system performance is evaluated using Accuracy, Precision, Recall, and F1-Score.                                             
-```
-<h1>Python Implementation:</h1>
 
+##Python Implementation
+```
 import random
 emails = {
     "Email 1": random.choice(["Spam", "Not Spam"]),
