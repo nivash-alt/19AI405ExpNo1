@@ -36,8 +36,8 @@ The PEAS model is widely used in designing intelligent systems such as robots, s
 </table>
 <hr>
 <H3>DESIGN STEPS</H3>
-STEP 1: Identifying the Input:                                                                                 
-Email content, sender information, subject, attachments, and keywords.                                        
+STEP 1: Identifying the Input:                                                                                  
+Email content, sender information, subject, attachments, and keywords.                                                                                                                       
                                                                                                                   
 STEP 2: Identifying the Output:                                                               
 Classify the email as Spam or Not Spam (Ham).                                                   
@@ -50,4 +50,38 @@ Analyze the incoming email using a Machine Learning model, detect spam patterns,
 
 STEP 5: Measuring the Performance Parameters:                                                                                     
 For every correctly classified email, the performance is incremented. For every wrongly classified email (false positive or false negative), the performance is decremented. The system performance is evaluated using Accuracy, Precision, Recall, and F1-Score.                                             
-<p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+Python Implementation:
+```
+import random
+emails = {
+    "Email 1": random.choice(["Spam", "Not Spam"]),
+    "Email 2": random.choice(["Spam", "Not Spam"])
+}
+performance = 0
+print("Initial Emails")
+for email, status in emails.items():
+    print(f"{email}: {status}")
+print("\nSpam Mail Detection Agent Started...\n")
+for email in emails:
+    print(f"Agent checking {email}")
+    performance -= 1      # Checking cost
+    if emails[email] == "Spam":
+        print("Sensor: Spam email detected.")
+        print("Action: Moving email to Spam folder...")
+        performance += 10
+        print("Email moved successfully.")
+    else:
+        print("Sensor: Genuine email detected.")
+        print("Action: Keeping email in Inbox.")
+        performance += 5
+    print(f"Current Performance: {performance}\n")
+print("Final Email Status")
+for email, status in emails.items():
+    print(f"{email}: {status}")
+print("\nFinal Performance:", performance)
+```
+Output:
+
+<img width="443" height="697" alt="Screenshot 2026-07-25 093157" src="https://github.com/user-attachments/assets/9a7fc0a6-0963-490b-a92c-c253a3f73a7d" />
+Result:
+The PEAS description implementation is Successful
